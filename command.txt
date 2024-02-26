@@ -1,0 +1,10 @@
+Un fichier contient
+"Un bout de papier sur lequel est écrit : 010600"
+
+Commandes pour accèder au trésor
+```
+cd /home/xday/Desktop/cookbook/cookbook/cookbookerie/bash/training/Maison/garage/grenier
+ls -a
+gpg --output original_message.txt --decrypt .coffre.txt.gpg
+cat original_message.txt
+```
